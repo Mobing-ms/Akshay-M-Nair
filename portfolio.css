@@ -1,0 +1,350 @@
+.header{
+    display:flex;
+    flex-direction: row;
+    border-bottom-left-radius: 14px;
+    background-color: rgb(195, 177, 156);
+    border-bottom-right-radius: 14px;
+    max-height: 90px;
+    position: fixed;
+    z-index: 9999;
+    top:0;
+    width:100%;
+    transition: 0.4s;
+}
+.left_section{
+    display: flex;
+    flex:1.3;
+    padding-top: 10px;
+
+}
+.middle_section{
+    display: flex;
+    flex:0.3;
+    min-width: 0;
+    padding-top: 7px;
+}
+.right_section{
+    display: flex;
+    justify-content: flex-end;
+    flex:1.7;
+    justify-content: space-around;
+    font-family: poppins;
+    padding-top: 20px;
+    letter-spacing: 0.5px;
+
+   
+}
+.home{
+    font-size: 19px;
+    font-weight:420px;
+    text-decoration: solid;
+    color: rgb(81,63,57);
+    position: relative;
+    margin-left: 45px;
+    
+
+   
+
+}
+.projects{
+    font-size: 19px;
+    font-weight: 420;
+    text-decoration: solid;
+    color: rgb(81,63,57);
+    position: relative;
+ 
+ 
+}
+.about_me{
+    font-size: 19px;
+    font-weight: 420;
+    position:relative;
+    text-decoration: solid;
+    color: rgb(81,63,57);
+   
+}
+.contact_info{
+    font-size: 19px;
+    font-weight: 420;
+    text-decoration: solid;
+    color: rgb(81,63,57);
+    position: relative;
+}
+.home:after{
+    content:"";
+    position: absolute;
+    background-color: rgb(81,63,57);
+    height:1.7px;
+    width:0;
+    left:0;
+    bottom: 10px;
+    transition: 0.3s;
+}
+.projects:after{
+    content:"";
+    position: absolute;
+    background-color: rgb(81,63,57);
+    height:1.7px;
+    width:0;
+    left:0;
+    bottom: 10px;
+    transition: 0.3s;
+}
+.about_me:after{
+    content:"";
+    position: absolute;
+    background-color: rgb(81,63,57);
+    height:1.7px;
+    width:0;
+    left:0;
+    bottom: 10px;
+    transition: 0.3s;
+}
+.contact_info:after{
+    content:"";
+    position: absolute;
+    background-color: rgb(81,63,57);
+    height:1.7px;
+    width:0;
+    left:0;
+    bottom: 10px;
+    transition: 0.3s;
+}
+.home:hover:after{
+    width: 100%;
+}
+.projects:hover:after{
+    width: 100%;
+}
+.about_me:hover:after{
+    width: 100%;
+}
+.contact_info:hover:after{
+    width: 100%;
+}
+.header:hover{
+    box-shadow: 0px 0px 14px rgb(81,63,57);
+}
+.Home{
+    background-color: rgb(232,226,217)
+}
+.Home:hover{
+    cursor:pointer;
+}
+*{
+  margin:0;
+  border:0;  
+}
+.am{
+    position: relative;
+    transition: 0.8s;
+}
+.am:hover{
+
+   transform:rotate(360deg);
+   margin-right: 20px;
+   
+  
+
+}
+
+.am:active{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.About_me{
+    background-color: rgb(81,63,57);
+}
+.fun_time{
+    font-size: 19px;
+    font-weight: 420;
+    text-decoration: solid;
+    color: rgb(81,63,57);
+    position: relative;
+ 
+}
+.fun_time:after{
+    content:"";
+    position: absolute;
+    background-color: rgb(81,63,57);
+    height:1.7px;
+    width:0;
+    left:0;
+    bottom: 10px;
+    transition: 0.3s;
+}
+.fun_time:hover:after{
+    width: 100%;
+}
+.title:hover{
+
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 7px rgb(180, 180, 180);
+    
+}
+.title:active{
+    transform: scale(1.4);
+    margin-top: 40px;
+    
+}
+.terms:hover{
+
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 7px rgb(180, 180, 180);
+    
+}
+.terms:active{
+    transform: scale(1.4);
+    margin-top: 40px;
+}
+.welcome:hover{
+
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 7px rgb(180, 180, 180);
+}
+.welcome:active{
+    transform: scale(1.4);
+    margin-top: 40px;
+}
+.complaint1:hover{
+
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 7px rgb(180, 180, 180);
+}
+.complaint1:active{
+    transform: scale(1.4);
+    margin-top: 40px;
+}
+.complaint2:hover{
+
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 7px rgb(180, 180, 180);
+}
+.complaint2:active{
+    transform: scale(1.4);
+    margin-top: 40px;
+}
+.no-more:hover{
+
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 7px rgb(180, 180, 180);
+}
+.no-more:active{
+    transform: scale(1.4);
+    margin-top: 40px;
+   }
+.event:hover{
+
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 7px rgb(180, 180, 180);
+}
+.event:active{
+
+    transform: scale(1.2);
+    margin-top: 30px;
+}
+::placeholder {
+    color:rgb(180, 180, 180);
+    opacity: 1;
+  }
+  .submit {
+    outline: none;
+    cursor: pointer;
+    border: none;
+    padding: 0.9rem 2rem;
+    margin: 0;
+    font-family: poppins;
+    font-size: 15px;
+    position: relative;
+    display: inline-block;
+    letter-spacing: 0.05rem;
+    font-weight: 400;
+    font-size: 17px;
+    border-radius: 500px;
+    border-style: dashed;
+    border-color: rgb(81,63,57);
+    overflow: hidden;
+    background:rgb(81,63,57) ;
+    color: rgb(81,63,57);
+    box-shadow: 0px 0px 6px rgb(55, 36, 26) ;
+   }
+   
+   .submit span {
+    position: relative;
+    z-index: 10;
+    transition: color 0.4s;
+   }
+   
+   .submit:hover span {
+    color: rgb(180, 180, 180);
+   }
+   
+   .submit::before,
+   .submit::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+   }
+   
+   .submit::before {
+    content: "";
+    background: rgb(195, 177, 156);
+    width: 120%;
+    left: -10%;
+    transform: skew(30deg);
+    transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+   }
+   
+   .submit:hover::before {
+    transform: translate3d(100%, 0, 0);
+   }
+   .linkedin:hover{
+    transform: scale(1.1);
+   }
+   .git:hover{
+    transform: scale(1.1);
+   }
+   .x:hover{
+    transform: scale(1.1);
+   }
+   .insta:hover{
+    transform: scale(1.1);
+   }
+   .maail:hover{
+    transform: scale(1.1);
+   }
+  .container{
+    max-width: 1220px;
+    width: 100%;
+    margin: auto;
+    padding: 40px 0;
+  }
+  .gallery{
+    display: flex;
+    gap: 20px;
+  }
+  .column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+.photo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: 0.2s;
+}
+.photo img:hover{
+    transform: scale(1.05);
+}
+@media all and (max-width: 768px){
+    .gallery{
+        flex-direction: column;
+    }
+   
+}
+

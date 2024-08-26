@@ -42,9 +42,6 @@
     position: relative;
     margin-left: 45px;
     
-
-   
-
 }
 .projects{
     font-size: 19px;
@@ -77,7 +74,7 @@
     height:1.7px;
     width:0;
     left:0;
-    bottom: 10px;
+    bottom: -10px;
     transition: 0.3s;
 }
 .projects:after{
@@ -87,7 +84,7 @@
     height:1.7px;
     width:0;
     left:0;
-    bottom: 10px;
+    bottom: -10px;
     transition: 0.3s;
 }
 .about_me:after{
@@ -97,7 +94,7 @@
     height:1.7px;
     width:0;
     left:0;
-    bottom: 10px;
+    bottom: -10px;
     transition: 0.3s;
 }
 .contact_info:after{
@@ -107,7 +104,7 @@
     height:1.7px;
     width:0;
     left:0;
-    bottom: 10px;
+    bottom: -10px;
     transition: 0.3s;
 }
 .home:hover:after{
@@ -133,7 +130,8 @@
 }
 *{
   margin:0;
-  border:0;  
+  border:0; 
+  list-style: none; 
 }
 .am{
     position: relative;
@@ -170,7 +168,7 @@
     height:1.7px;
     width:0;
     left:0;
-    bottom: 10px;
+    bottom: -10px;
     transition: 0.3s;
 }
 .fun_time:hover:after{
@@ -347,4 +345,17 @@
     }
    
 }
-
+svg{
+margin:100;
+}
+path{
+    stroke-dasharray: 940.2373046875px;
+    stroke-dashoffset: 940.2373046875px;
+    animation: LineAnimation 6s ease forwards;
+    animation-delay: 1s;
+}
+@keyframes LineAnimation {
+    to{
+        stroke-dashoffset: 0px;
+    }
+}
